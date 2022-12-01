@@ -11,9 +11,7 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-
-
+ new-3
     @Column
     @NotEmpty(message = "Name should not be empty")
     private String name;
