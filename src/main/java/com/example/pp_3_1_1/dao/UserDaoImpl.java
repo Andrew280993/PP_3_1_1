@@ -19,6 +19,8 @@ public class UserDaoImpl implements UserDao {
 
     //new 6
 
+    // new 10
+
     @Override
     public User getUserById(long id) {
         return entityManager.find(User.class, id);
