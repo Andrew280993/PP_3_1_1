@@ -13,5 +13,7 @@ public interface UserService {
     void deleteUserById(long id);
     void updateUser(User user);
 
+    //new 5
+
     // new 7
 }
