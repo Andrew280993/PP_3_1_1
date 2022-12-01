@@ -26,6 +26,9 @@ public class User {
     @Max(value = 100, message = "Age should be less than 127")
     private Byte age;
 
+
+    public int chisllo;
+
     public User() {
 
     }
