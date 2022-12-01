@@ -11,9 +11,7 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-
-
+ new-3
     @Column
     @NotEmpty(message = "Name should not be empty")
     private String name;
@@ -27,6 +25,9 @@ public class User {
     @Min(value = 0, message = "Age should be greater than 0")
     @Max(value = 100, message = "Age should be less than 127")
     private Byte age;
+
+
+    public int chisllo;
 
     public User() {
 
